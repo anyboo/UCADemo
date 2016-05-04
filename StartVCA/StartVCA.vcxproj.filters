@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="VCAMeta">
+      <UniqueIdentifier>{5bc618a1-6da6-4c2a-86e0-e1a7ee696e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAMeta\ixml">
+      <UniqueIdentifier>{66403757-5917-4d83-a98d-505918a4ff57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAMeta\ixml\inc">
+      <UniqueIdentifier>{29463909-c0c6-4f96-ab10-45ed36a33032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAMeta\ixml\src">
+      <UniqueIdentifier>{c91b063f-cef2-4f74-b158-9b4946d1c0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoSource">
+      <UniqueIdentifier>{31bfe828-6d96-4532-bc3f-8631ad1c7bd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartVCA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaLib.cpp">
+      <Filter>VCAMeta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaParserIXML.cpp">
+      <Filter>VCAMeta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaParserMSXML.cpp">
+      <Filter>VCAMeta</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\attr.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\document.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\element.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixml.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixmlmembuf.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixmlparser.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\namedNodeMap.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\node.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\nodeList.c">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\CompressedVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaLib.h">
+      <Filter>VCAMeta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaParserIXML.h">
+      <Filter>VCAMeta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaParserMSXML.h">
+      <Filter>VCAMeta</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\inc\ixml.h">
+      <Filter>VCAMeta\ixml\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\src\inc\ixmlmembuf.h">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\src\inc\ixmlparser.h">
+      <Filter>VCAMeta\ixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\CompressedVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\VCAVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

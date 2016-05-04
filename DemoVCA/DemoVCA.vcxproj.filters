@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e9c35214-75a8-49e2-8850-6b40b77ca523}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7f5dfd4e-c59c-4389-b6a6-f52682349e16}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{815cc039-c315-4d5d-a469-ddb7a088893a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="VCAEngine">
+      <UniqueIdentifier>{7734700e-6757-4cc1-a195-5f41f535d863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAEngine\ixml">
+      <UniqueIdentifier>{0bb94f9c-de5d-4ee9-a336-f15237dd2e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAEngine\ixml\inc">
+      <UniqueIdentifier>{7f065c1f-8222-4480-9803-fa06163f1b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCAEngine\ixml\src">
+      <UniqueIdentifier>{97c1660b-2d2a-4b72-b937-b1d9c2529aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoSource">
+      <UniqueIdentifier>{9fe73608-3a3c-46db-9dfb-f3c21ec8514c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{ff3e3a57-4283-42e7-9052-4a5681ad4221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VCADialog">
+      <UniqueIdentifier>{40d85cd5-81cc-43b5-af93-e2afd29e3693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlarmListCtrl">
+      <UniqueIdentifier>{18f23f9d-fab2-429a-baca-d895681f8552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Recorder">
+      <UniqueIdentifier>{2e8b7f1c-80a5-4ca1-ae0c-eed3c10ee10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1ce1459c-0342-4312-bf61-15d5f660cf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b392f682-876e-4773-b0ad-2391c45abd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension">
+      <UniqueIdentifier>{866e5aa1-4bef-4b17-bb7f-0de514734d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigApp">
+      <UniqueIdentifier>{c60ed1fb-2eda-488a-82c6-c9f886fd08fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomCmdLineInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoVCA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoVCADlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LicenseMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCASystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCAEngine\ConfigEngine.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="VCAEngine\Engine.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="VCAEngine\VCAEngine.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaLib.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaParserIXML.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAMetaParserMSXML.cpp">
+      <Filter>VCAEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\attr.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\document.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\element.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixml.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixmlmembuf.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\ixmlparser.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\namedNodeMap.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\node.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ixml\src\nodeList.c">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\AviDemux.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\Cap5System.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\Cap5VideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\CompressedVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\DShowCap.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\DShowVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\ImageDataQueue.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\RawFileVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\StreamVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\VCAVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\VideoConfigPage.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\VirtualVideoSource.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VideoSource\YUVRec.cpp">
+      <Filter>VideoSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\CD3d.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DAdapterInfo.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DCalibrationRender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DMisc.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DVCARender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\EasyArrowD3D.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Triangulation.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\AdvancedSettingsPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\BlankDialog.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\CalibrationConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\CalibrationCtl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\CalibrationSettingCtl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ClassificationSettingPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ConfigDlg.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ConfigTabCtrl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\LicenseConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\SceneChangeConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\TamperConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\TreeListCtrl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\TreeListWnd.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\VCADialog.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ZoneSettingCtl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ZonesRulesConfigPage.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="VCADialog\ZoneTreeCtrl.cpp">
+      <Filter>VCADialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmListCtrl\AlarmListCtrl.cpp">
+      <Filter>AlarmListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmListCtrl\AlarmViewDlg.cpp">
+      <Filter>AlarmListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="Recoder\AlarmOptDlg.cpp">
+      <Filter>Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="Recoder\AlarmRecorder.cpp">
+      <Filter>Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="Recoder\GDIViewer.cpp">
+      <Filter>Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\JpegCodec.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\APPConfigure.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\EasyArrow.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\EventFilter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\VCAConfigure.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\VCADataMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension\VCAMediaBundle.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigAppDlg.cpp">
+      <Filter>ConfigApp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DemoVCA.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomCmdLineInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoVCA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoVCADlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LicenseMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrjVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCASystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCAEngine\ConfigEngine.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="VCAEngine\Engine.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="VCAEngine\VCAEngine.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaLib.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaParserIXML.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAMetaParserMSXML.h">
+      <Filter>VCAEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\inc\ixml.h">
+      <Filter>VCAEngine\ixml\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\src\inc\ixmlmembuf.h">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ixml\src\inc\ixmlparser.h">
+      <Filter>VCAEngine\ixml\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\AviDemux.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\Cap5System.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\Cap5VideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\CompressedVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\DShowCap.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\DShowVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\ImageDataQueue.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\RawFileVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\StreamVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\VCAVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\VideoConfigPage.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\VirtualVideoSource.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VideoSource\YUVRec.h">
+      <Filter>VideoSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\CD3d.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DAdapterInfo.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DCalibrationRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DMisc.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DVCARender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\EasyArrowD3D.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Triangulation.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\VCAMetaRenderAPI.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\VCARender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\AdvancedSettingsPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\BlankDialog.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\CalibrationConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\CalibrationCtl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\CalibrationSettingCtl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ClassificationSettingPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ConfigDlg.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ConfigTabCtrl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\LicenseConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\SceneChangeConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\TamperConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\TreeListCtrl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\TreeListWnd.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\VCAConfigureObserver.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\VCADialog.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ZoneSettingCtl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ZonesRulesConfigPage.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="VCADialog\ZoneTreeCtrl.h">
+      <Filter>VCADialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmListCtrl\AlarmListCtrl.h">
+      <Filter>AlarmListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmListCtrl\AlarmNotification.h">
+      <Filter>AlarmListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmListCtrl\AlarmViewDlg.h">
+      <Filter>AlarmListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoder\AlarmOptDlg.h">
+      <Filter>Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoder\AlarmRecorder.h">
+      <Filter>Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoder\GDIViewer.h">
+      <Filter>Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\JpegCodec.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\MemDC.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\APPConfigure.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\colorconversion.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EasyArrow.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\EventFilter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ObjectModel.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\VCAConfigure.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VCADataMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VCAEventSink.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\wm_user.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\VCAConfig.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension\VCAMediaBundle.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigAppDlg.h">
+      <Filter>ConfigApp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\2391.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\abobj.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\appear.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\camera_calibration.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clock_3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clutter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\colsig.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\counting.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\directionality.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\disappear.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\enter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fire.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hatch.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\intruder_256.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\linecounter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\objectfiler.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\person.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\rmobj.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ruler.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\seq.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\smoke.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\speedlimit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tailgating.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tailgating3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tamper.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\unknown.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vehicle.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\zone_6.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DemoVCA.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Render\VCAMetaRender.lib">
+      <Filter>Render</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

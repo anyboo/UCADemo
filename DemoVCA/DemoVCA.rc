@@ -1,0 +1,762 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DemoVCA.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\2391.ico"
+IDI_ICON_APPEAR         ICON                    "res\\appear.ico"
+IDI_ICON_TIMER          ICON                    "res\\clock_3.ico"
+IDI_ICON_COUNTER        ICON                    "res\\counting.ico"
+IDI_ICON_DIRECTION      ICON                    "res\\directionality.ico"
+IDI_ICON_DISAPPEAR      ICON                    "res\\disappear.ico"
+IDI_ICON_ENTER          ICON                    "res\\enter.ico"
+IDI_ICON_EXIT           ICON                    "res\\exit.ico"
+IDI_ICON_PRESENCE       ICON                    "res\\intruder_256.ico"
+IDI_ICON_ZONE           ICON                    "res\\zone_6.ico"
+IDI_ICON_VEHICLE        ICON                    "res\\vehicle.ico"
+IDI_ICON_CLUTTER        ICON                    "res\\clutter.ico"
+IDI_ICON_OBJFLT         ICON                    "res\\objectfiler.ico"
+IDI_ICON_PERSON         ICON                    "res\\person.ico"
+IDI_ICON_SPEED          ICON                    "res\\speedlimit.ico"
+IDI_ICON_UNKNOWN        ICON                    "res\\unknown.ico"
+IDI_ICON_ABOBJ          ICON                    "res\\abobj.ico"
+IDI_ICON_RMOBJ          ICON                    "res\\rmobj.ico"
+IDI_ICON_LINECOUNTER    ICON                    "res\\linecounter.ico"
+IDI_ICON_GOP            ICON                    "res\\gop.ico"
+IDI_ICON_TAILGATING     ICON                    "res\\tailgating3.ico"
+IDI_ICON_FIRE           ICON                    "res\\fire.ico"
+IDI_ICON_SMOKE          ICON                    "res\\smoke.ico"
+IDI_ICON_COLSIG         ICON                    "res\\colsig.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUPMENU MENU 
+BEGIN
+    POPUP "CONTEXT MENU"
+    BEGIN
+        MENUITEM "Save alarms to CSV",          ID_CONTEXTMENU_SAVEALARMSTOCSV
+        MENUITEM "Clear Item",                  ID_CONTEXTMENU_CLEARITEM, GRAYED
+        MENUITEM "Clear All Items",             ID_CONTEXTMENU_CLEARALLITEMS
+    END
+END
+
+IDR_MAIN_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save current settings",      ID_OPTION_SAVE_CURRENT_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_CONTROL_EXIT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Recording Alarms",           ID_OPTION_RECORDING
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GROUND              BITMAP                  "res\\ground.bmp"
+IDB_CAMERA_SETUP        BITMAP                  "res\\camera_calibration.bmp"
+IDB_HATCH               BITMAP                  "res\\hatch.bmp"
+IDB_RULER               BITMAP                  "res\\ruler.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VCASYSTEM_DIALOG DIALOGEX 0, 0, 298, 187
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD | WS_BORDER
+EXSTYLE WS_EX_CLIENTEDGE | WS_EX_CONTROLPARENT
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_VCAENGINE_DIALOG DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CONTROL | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_ENGINE_SETTING_DIALOG DIALOGEX 0, 0, 503, 301
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "File Path",IDC_STATIC,21,24,28,8
+    EDITTEXT        IDC_ED_RAWFILEPATH,52,22,148,14,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_FILEOPEN,203,22,23,14
+    GROUPBOX        "Video Format",IDC_STATIC,157,68,63,30
+    COMBOBOX        IDC_COMBO_VIDEOFORMAT,167,80,42,46,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Color Format",IDC_STATIC,18,103,63,30
+    COMBOBOX        IDC_COMBO_COLORFORMAT,28,115,42,62,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Channel",IDC_STATIC,87,68,63,30
+    COMBOBOX        IDC_COMBO_CHANNEL,98,80,42,113,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Width * Height",IDC_STATIC,87,103,126,30
+    COMBOBOX        IDC_COMBO_RESOLUTION,96,115,107,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_RAW_GROUP,7,8,246,41
+    GROUPBOX        "",IDC_STATIC,7,55,246,118
+    GROUPBOX        "Frame Rate",IDC_STATIC,19,137,58,30
+    COMBOBOX        IDC_COMBO_FRAMERATE_CAP5,28,149,40,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Board NO.",IDC_STATIC,18,68,63,30
+    COMBOBOX        IDC_COMBO_BOARDNO,26,80,42,113,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,233,246,32
+    LTEXT           "Stream path",IDC_STATIC,11,211,39,8
+    EDITTEXT        IDC_ED_STREAMPATH,55,208,182,14,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    LTEXT           "VLC Path",IDC_STATIC,13,193,31,8
+    EDITTEXT        IDC_ED_VLCEXEFILEPATH,55,189,151,14,ES_AUTOHSCROLL | NOT WS_TABSTOP
+    PUSHBUTTON      "...",IDC_BTN_VLCPATHOPEN,213,189,23,14
+    LTEXT           "Device",IDC_STATIC,16,249,24,8
+    COMBOBOX        IDC_COMBO_DEVICENUM_DSHOW,67,247,112,49,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,7,179,246,48
+    GROUPBOX        "",IDC_STATIC,7,273,246,14
+    CONTROL         "Raw/Compressed (AVI/WMV) file",IDC_RADIO_RAWFILE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,12,8,122,10
+    CONTROL         "Cap5",IDC_RADIO_CAP5,"Button",BS_AUTORADIOBUTTON,12,55,33,10
+    CONTROL         "VLC Player",IDC_RADIO_VLC,"Button",BS_AUTORADIOBUTTON,14,179,51,10
+    CONTROL         "DirectShow Devices",IDC_RADIO_DSHOW,"Button",BS_AUTORADIOBUTTON,13,233,81,10
+    CONTROL         "Video source not configured",IDC_RADIO_NOT_SOURCE,
+                    "Button",BS_AUTORADIOBUTTON,13,270,105,13
+    GROUPBOX        "Video Preview",IDC_VIDEO_PREVIEW,260,8,230,171
+    COMBOBOX        IDC_COMBO_VIDEO_ROTATE,342,195,95,51,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_FRAME_TYPE,342,212,95,47,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Video Property",IDC_STATIC,261,181,226,51
+    LTEXT           "Rotate Video",IDC_STATIC,276,197,42,8
+    LTEXT           "Frame Type",IDC_STATIC,276,214,38,8
+    GROUPBOX        "ROI configure",IDC_STATIC,261,237,226,52
+    LTEXT           "Pos X",IDC_STATIC,269,257,20,8
+    EDITTEXT        IDC_EDIT_ROI_X,291,255,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Pos Y",IDC_STATIC,356,257,20,8
+    EDITTEXT        IDC_EDIT_ROI_Y,382,254,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Width",IDC_STATIC,270,273,20,8
+    EDITTEXT        IDC_EDIT_ROI_W,292,270,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Height",IDC_STATIC,356,273,22,8
+    EDITTEXT        IDC_EDIT_ROI_H,382,270,40,14,ES_AUTOHSCROLL | WS_DISABLED
+END
+
+IDD_VCADIALOG DIALOGEX 0, 0, 354, 242
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_ALARMVIWER_DIALOG DIALOGEX 0, 0, 362, 218
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Viewer"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "<<",IDC_BTN_PREV,115,184,24,22,WS_DISABLED
+    PUSHBUTTON      ">>",IDC_BTN_NEXT,235,184,24,22,WS_DISABLED
+    EDITTEXT        IDC_ED_FILENAME,150,184,77,22,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Export",IDC_BTN_EXPORT,207,7,50,14
+    CONTROL         "",IDC_PROGRESS_EXPORT,"msctls_progress32",WS_BORDER,7,7,188,14
+END
+
+IDD_CLS_SETTING_DIALOG DIALOGEX 0, 0, 423, 209
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_ED_NAME,289,29,103,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_ENABLE,289,52,103,44,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ED_MINAREA,289,75,103,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_MAXAREA,289,98,103,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_MINSPEED,289,121,103,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_MAXSPEED,289,144,103,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add New Object Classifier",IDC_BTN_ADD,14,178,109,14
+    PUSHBUTTON      "Remove Object Classifier",IDC_BTN_REMOVE,131,178,109,14
+    PUSHBUTTON      "Reset Default Values",IDC_BTN_RESET,297,178,109,14
+    GROUPBOX        "Choose an object classifier",IDC_STATIC,7,7,203,166
+    GROUPBOX        "Detailed object classifier information",IDC_STATIC,216,7,200,166
+    CONTROL         "",IDC_CLASSIFIER_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,19,189,149
+    LTEXT           "Name",IDC_STATIC,230,29,46,14,SS_CENTERIMAGE
+    LTEXT           "Enable",IDC_STATIC,230,52,46,14,SS_CENTERIMAGE
+    LTEXT           "Min Area (m*m)",IDC_STATIC,230,75,50,14,SS_CENTERIMAGE
+    LTEXT           "Max Area (m*m)",IDC_STATIC,230,98,52,14,SS_CENTERIMAGE
+    LTEXT           "Min Speed (km/h)",IDC_STATIC,230,121,56,14,SS_CENTERIMAGE
+    LTEXT           "Max Speed (km/h)",IDC_STATIC,230,144,58,14,SS_CENTERIMAGE
+END
+
+IDD_RECORDING_DIALOG DIALOGEX 0, 0, 316, 78
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Alarm Options"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "Enable",IDC_CHECK_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,8,37,10
+    EDITTEXT        IDC_EDIT_PATH,70,22,155,13
+    EDITTEXT        IDC_EDIT_PERIOD,70,42,155,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,259,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,259,24,50,14
+    GROUPBOX        "",IDC_STATIC,9,13,243,57
+    LTEXT           "Root Path",IDC_STATIC,17,25,33,8
+    LTEXT           "Period(minute)",IDC_STATIC,18,43,48,8
+END
+
+IDD_SIMPLEVCAAPP_DIALOG DIALOGEX 0, 0, 212, 239
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "DemoVCA"
+MENU IDR_MAIN_MENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_DIALOG_LICENSE DIALOGEX 0, 0, 445, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VCA Open License Activation"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,326,169,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,381,169,50,14
+    CTEXT           "License",IDC_STATIC_LICENSE_INFO_1,7,22,431,20
+    EDITTEXT        IDC_EDIT_HWGUID,13,50,418,13,ES_AUTOHSCROLL
+    CTEXT           "Static",IDC_STATIC_LICENSE_INFO_2,7,79,431,8
+    EDITTEXT        IDC_EDIT_LICENSE_DIRECT,14,115,418,14,ES_AUTOHSCROLL
+    GROUPBOX        "License Activation",IDC_STATIC,7,7,431,157
+    EDITTEXT        IDC_EDIT_LICENSE_FILE,91,137,268,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Find License FIle",IDC_BUTTON_LICENSE_FILE,365,138,68,14
+    CONTROL         "Direct Input License code",IDC_RADIO_DIRECT,"Button",BS_AUTORADIOBUTTON,12,101,103,10
+    CONTROL         "Choose License file",IDC_RADIO_FILE,"Button",BS_AUTORADIOBUTTON,13,139,77,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_VCASYSTEM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_VCAENGINE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_ENGINE_SETTING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 495
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 298
+    END
+
+    IDD_VCADIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 235
+    END
+
+    IDD_ALARMVIWER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_CLS_SETTING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 416
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_RECORDING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_SIMPLEVCAAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        VERTGUIDE, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_DIALOG_LICENSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_TAMPER         ICON                    "res\\tamper.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PROGRESS            BITMAP                  "res\\seq.bmp"
+IDB_NOSIGNAL            BITMAP                  "res\\bitmap3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BLANK_DIALOG DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_ADVANCED_SETTING_DIALOG DIALOGEX 0, 0, 380, 179
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Feature Enable",IDC_STATIC,7,4,177,107
+    CONTROL         "Object Tracking",IDC_CHECK_OBTRACKING_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,19,66,10
+    CONTROL         "Surveillance",IDC_RADIO_SURVEILLANCE,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP | WS_TABSTOP,24,31,56,13
+    CONTROL         "People",IDC_RADIO_PEOPLE,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_TABSTOP,90,31,56,13
+    CONTROL         "Abandoned/removed object detection ",IDC_CHECK_ABRM_ENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,47,139,10
+    CONTROL         "Counting line ",IDC_CHECK_CNTLINE_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,62,59,10
+    CONTROL         "Camera Shake Cancellation ",IDC_CHECK_CAMSTAB_ENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,78,105,10
+    CONTROL         "Smoke and fire detection",IDC_CHECK_SMOKEFIRE_ENABLE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,95,95,10
+    GROUPBOX        "Alarm Retrigger Time",IDC_STATIC,194,4,179,34
+    LTEXT           "Alarm Holdoff time:",IDC_STATIC,205,22,69,11
+    EDITTEXT        IDC_RETRIGGER_TIME_EDIT,277,20,28,13,ES_AUTOHSCROLL
+    LTEXT           "secs",IDC_STATIC,314,23,30,9
+    GROUPBOX        "Tracker Configuration",IDC_STATIC,194,58,179,53
+    LTEXT           "Minimum tracked object size",IDC_STATIC,204,72,90,8
+    EDITTEXT        IDC_EDIT_OBJSIZE,303,72,31,13,ES_AUTOHSCROLL
+    LTEXT           "Pixels",IDC_STATIC,342,75,19,8
+    LTEXT           "Stationary object hold on time",IDC_STATIC,204,88,97,8
+    EDITTEXT        IDC_EDIT_OBJHOLDTIME,303,88,31,12,ES_AUTOHSCROLL
+    LTEXT           "Seconds",IDC_STATIC,341,88,28,8
+    GROUPBOX        "Detection Point of Tracked Objects ",IDC_STATIC,7,120,366,53
+    CONTROL         "Default (choose centroid if calibrated overhead, midbottom if calibrated sideon or uncalibrated) ",IDC_RADIO_DETECTPOINT1,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,134,321,10
+    CONTROL         "Centroid (force centroid) ",IDC_RADIO_DETECTPOINT2,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,147,97,10
+    CONTROL         "Midbottom (force midbottom) ",IDC_RADIO_DETECTPOINT3,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,14,160,111,10
+END
+
+IDD_PROGRESSDLG DIALOGEX 0, 0, 212, 61
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_WAITDIALOG DIALOGEX 0, 0, 186, 93
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+IDD_CONFIGAPP_DIALOG DIALOGEX 0, 0, 411, 362
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "ConfigApp"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_CONFIG_DIALOG DIALOGEX 0, 0, 662, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CONFIG_TAB,"SysTabControl32",0x0,7,7,648,178
+    PUSHBUTTON      "Exit",IDC_CONFIG_EXIT,587,212,68,17
+    PUSHBUTTON      "Apply",IDC_CONFIG_APPLY,512,212,68,17
+END
+
+IDD_ZONESRULESCONFIGDLG DIALOGEX 0, 0, 288, 153
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+END
+
+IDD_CALIBRATIONCONFIGDLG DIALOGEX 0, 0, 440, 396
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Pause video",IDC_BN_CALIB_PAUSE,316,350,91,28
+    PUSHBUTTON      "Uncalibrate",IDC_BUTTON_UNCALIBRATE,307,309,114,15
+END
+
+IDD_CALIBRATIONCTL DIALOGEX 0, 0, 230, 472
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Camera Setup",IDC_CAM_SETUP,7,148,129,57
+    LTEXT           "Height",IDC_HEIGHT,17,164,32,15,SS_CENTERIMAGE
+    LTEXT           "Tilt Angle",IDC_TILT,17,185,32,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_ED_HEIGHT,51,164,29,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_TILT,51,185,29,15,ES_AUTOHSCROLL
+    LTEXT           "meters",IDC_METER,111,164,21,15,SS_CENTERIMAGE
+    LTEXT           "deg",IDC_DEG,103,185,13,15,SS_CENTERIMAGE
+    CONTROL         166,IDC_CAMERA_SETUP_INFO,"Static",SS_BITMAP,7,7,200,130
+    GROUPBOX        "Camera Intrinsic Parameters",IDC_INTRICSIC_PARAM,7,215,119,57
+    LTEXT           "Vertical FOV",IDC_FOV,17,233,40,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_ED_FOV,63,231,40,15,ES_AUTOHSCROLL
+    LTEXT           "deg",IDC_DEG1,111,231,11,15,SS_CENTERIMAGE
+    CONTROL         "",IDC_FOV_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,21,255,100,10
+    LTEXT           "Static",IDC_STATIC_CALI_STATUS,23,287,113,8
+    GROUPBOX        "Measurement Units",IDC_MEASUREMENT_PARAM,7,303,122,33
+    COMBOBOX        IDC_CALIB_UNITS_COMBO,21,316,86,58,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_ED_HEIGHT2,85,164,23,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Restore Defaults",IDC_BUTTON_RESTORE,7,450,114,15
+    GROUPBOX        "Calibration Status",IDC_CALIB_STATUS_GROUP,7,272,145,31
+    GROUPBOX        "Advanced Parameters",IDC_ADV_PARAM,7,336,169,103
+    LTEXT           "Pan Angle",IDC_PAN,17,354,40,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_ED_PAN,63,352,40,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_PAN_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,21,373,100,10
+    LTEXT           "deg",IDC_DEG2,109,352,11,15,SS_CENTERIMAGE
+    LTEXT           "Roll Angle",IDC_ROLL,17,394,40,15,SS_CENTERIMAGE
+    EDITTEXT        IDC_ED_ROLL,63,391,40,15,ES_AUTOHSCROLL
+    CONTROL         "",IDC_ROLL_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,21,412,100,10
+    LTEXT           "deg",IDC_DEG3,109,391,11,15,SS_CENTERIMAGE
+END
+
+IDD_CONFIGPAGE DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,129,26,50,16
+END
+
+IDD_TAMPERCONFIGPAGE DIALOGEX 0, 0, 252, 142
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,7,184,71
+    CONTROL         "Enable Tamper Detection",IDC_CHECK_TAMPER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,7,96,10
+    LTEXT           "Tampered Duration until Alarm",IDC_STATIC,20,22,98,8
+    EDITTEXT        IDC_TAMPER_TIME_EDIT,127,20,30,13,ES_AUTOHSCROLL
+    LTEXT           "secs",IDC_STATIC,163,21,24,9
+    LTEXT           "Tampered Screen Area",IDC_STATIC,20,39,74,8
+    EDITTEXT        IDC_TAMPER_AREA_EDIT,127,38,30,13,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,163,39,8,8
+    CONTROL         "Suppress alarm on lights on/off",IDC_CHECK_SUPPRESS_LIGHT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,57,115,10
+END
+
+IDD_LICENSECONFIGPAGE DIALOGEX 0, 0, 434, 335
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Register New License",IDC_BTN_LICENSE_REGISTER,335,39,75,17
+    PUSHBUTTON      "Unregister License",IDC_BTN_LICENSE_REMOVE,335,61,75,17
+    GROUPBOX        "Configure License Files",IDC_STATIC,14,18,402,140
+    GROUPBOX        "Assign License",IDC_STATIC,14,167,401,142
+    CONTROL         "",IDC_LICENSE_CONFIG_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,19,35,313,111
+    CONTROL         "",IDC_LICENSE_CONFIG_LIST_ENGINE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,111,182,296,117
+    PUSHBUTTON      "Assign License",IDC_BUTTON_ASSIGN,23,186,61,15
+    PUSHBUTTON      "Unassign License",IDC_BUTTON_REMOVE,23,208,61,15
+END
+
+IDD_APPDLG DIALOGEX 0, 0, 642, 430
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           "",IDC_STATIC_DIALOG,7,7,628,308,NOT WS_VISIBLE | WS_BORDER
+    LTEXT           "Place for AlarmListCtrl",IDC_STATIC_ALARM,7,321,628,106,NOT WS_VISIBLE | WS_BORDER
+END
+
+IDD_SCENECHANGECONFIGPAGE DIALOGEX 0, 0, 252, 199
+STYLE DS_SETFONT | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Manual Settings",IDC_STATIC,7,81,182,56
+    LTEXT           "Changed Time",IDC_STATIC,20,98,98,8
+    EDITTEXT        IDC_TAMPER_TIME_EDIT,124,96,30,13,ES_AUTOHSCROLL
+    LTEXT           "secs",IDC_STATIC,160,97,20,9
+    LTEXT           "Changed Image Area",IDC_STATIC,20,115,68,8
+    EDITTEXT        IDC_TAMPER_AREA_EDIT,124,114,30,13,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,160,115,8,8
+    GROUPBOX        "Mode",IDC_STATIC,8,7,182,67
+    CONTROL         "Automatic",IDC_RADIO_AUTOMATIC,"Button",BS_AUTORADIOBUTTON,16,22,47,10
+    CONTROL         "Manual",IDC_RADIO_MANUAL,"Button",BS_AUTORADIOBUTTON,71,22,39,10
+    CONTROL         "Disabled",IDC_RADIO_DISABLE,"Button",BS_AUTORADIOBUTTON,124,22,43,10
+    EDITTEXT        IDC_EDIT_SCENE_WARNING,11,40,171,30,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_DISABLED
+    CONTROL         "Enable grayscale transition detection",IDC_CHECK_DN_COLOR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,155,164,10
+    CONTROL         "Enable filter rim detection",IDC_CHECK_DN_RIM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,169,165,10
+    GROUPBOX        "IR Cut Filter Detection",IDC_STATIC,7,142,182,42
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_BLANK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_ADVANCED_SETTING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_PROGRESSDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_WAITDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_CONFIGAPP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 355
+    END
+
+    IDD_CONFIG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 655
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+
+    IDD_ZONESRULESCONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_CALIBRATIONCONFIGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 433
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 388
+    END
+
+    IDD_CALIBRATIONCTL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 465
+    END
+
+    IDD_CONFIGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_TAMPERCONFIGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_LICENSECONFIGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 427
+        RIGHTMARGIN, 347
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+
+    IDD_APPDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 635
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 427
+    END
+
+    IDD_SCENECHANGECONFIGPAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DemoVCA.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
