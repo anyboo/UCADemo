@@ -1,0 +1,14 @@
+<root>
+	<APPSetting VCA5DllPath="VCA5Lib.dll">
+		<LicenseSetting count="1">
+			<License Id="0" USN="" Path="license.lic"/>
+		</LicenseSetting>
+		<EngineSetting count="4">
+			<Engine LicenseId="0" VCAConfPath="VCAConf_00.xml" SourceType="2" SourcePath="sample.wmv" VLCPath="" DShowDevId="0" Bd="0" Ch="0" VideoFormat="0" ColorFormat="0" ImageSizeW="0" ImageSizeH="0" FrameRate="0" DisplayFlag="2"/>
+			<Engine LicenseId="0" VCAConfPath="VCAConf_01.xml" SourceType="-1" SourcePath="" VLCPath="" DShowDevId="0" Bd="0" Ch="0" VideoFormat="0" ColorFormat="0" ImageSizeW="0" ImageSizeH="0" FrameRate="0" DisplayFlag="2"/>
+			<Engine LicenseId="0" VCAConfPath="VCAConf_02.xml" SourceType="-1" SourcePath="" VLCPath="" DShowDevId="0" Bd="0" Ch="0" VideoFormat="0" ColorFormat="0" ImageSizeW="0" ImageSizeH="0" FrameRate="0" DisplayFlag="2"/>
+			<Engine LicenseId="0" VCAConfPath="VCAConf_03.xml" SourceType="-1" SourcePath="" VLCPath="" DShowDevId="0" Bd="0" Ch="0" VideoFormat="0" ColorFormat="0" ImageSizeW="0" ImageSizeH="0" FrameRate="0" DisplayFlag="2"/>
+		</EngineSetting>
+	</APPSetting>
+	<RECSetting Enable="0" Path="C:\SimpleVCAApp_Log" Period="1"/>
+</root>

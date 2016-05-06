@@ -1,0 +1,49 @@
+<Root schema_version="1.4">
+<ChannelSettings Enable="0" EnableStb="0" EnableAbObj="1" EnableMovObj="1" EnableCntLine="1" EnableSmokeFire="0" DetectionPoint="0" TrackMode="surv" MetadataFormat="631" RetrigTime="5" MeasurementUnits="1" StatHoldonTime="60" MinObjectArea="10" AlarmDwell="2000" FadeoutDwell="1000" TotalLicenses="0"></ChannelSettings>
+<LicenseSettings TotalLicenses="0"></LicenseSettings>
+<ZoneSettings TotalZones="1">
+<Zone Id="0" Name="Zone 0" Type="1" Style="2" Color="16711680" Display="0" Enable="1" TotalPoints="5">
+<Point X="13918" Y="17246"></Point>
+<Point X="47363" Y="19114"></Point>
+<Point X="54225" Y="49007"></Point>
+<Point X="17881" Y="52456"></Point>
+<Point X="13918" Y="17246"></Point>
+</Zone>
+</ZoneSettings>
+<EventSettings TotalEvents="1">
+<Event Id="0" Name="Zone 0-Presence" Type="1" NumRules="1" Enable="1">
+<Rule Logic="1" RuleType="1" iTotalTrkObjs="0" RuleDataSize="4" RuleData="00000000"></Rule>
+</Event>
+</EventSettings>
+<CounterSettings TotalCounters="0"></CounterSettings>
+<CalibrationSettings Mode="0" TiltAngle="30.000000" RollAngle="0.000000" PanAngle="0.000000" CamHeight="10.000000" FOV="40.000000"></CalibrationSettings>
+<ClassificationSettings TotalClassifications="4">
+<Classification Id="0" Name="Person" Enable="1" Position="0">
+<Area LowerThreshold="5.000000" UpperThreshold="20.000000"></Area>
+<Speed LowerThreshold="0.000000" UpperThreshold="20.000000"></Speed>
+</Classification>
+<Classification Id="1" Name="Vehicle" Enable="1" Position="1">
+<Area LowerThreshold="40.000000" UpperThreshold="1000.000000"></Area>
+<Speed LowerThreshold="0.000000" UpperThreshold="200.000000"></Speed>
+</Classification>
+<Classification Id="2" Name="Clutter" Enable="1" Position="2">
+<Area LowerThreshold="0.000000" UpperThreshold="4.000000"></Area>
+<Speed LowerThreshold="0.000000" UpperThreshold="50.000000"></Speed>
+</Classification>
+<Classification Id="3" Name="Group of People" Enable="1" Position="3">
+<Area LowerThreshold="21.000000" UpperThreshold="39.000000"></Area>
+<Speed LowerThreshold="0.000000" UpperThreshold="20.000000"></Speed>
+</Classification>
+</ClassificationSettings>
+<BIASettings TotalBIASteams="4" Enable="0">
+<BIAStream Id="0" Name="first stream" Enable="0" DrawingFlags="268435714" AlarmObjectColor="14696512" NonAlarmObjectColor="16776960" ObjectTextSize="0" CounterTextSize="0" SystemTextSize="1"></BIAStream>
+<BIAStream Id="1" Name="second stream" Enable="0" DrawingFlags="268435714" AlarmObjectColor="14696512" NonAlarmObjectColor="16776960" ObjectTextSize="0" CounterTextSize="0" SystemTextSize="1"></BIAStream>
+<BIAStream Id="2" Name="snapshot" Enable="0" DrawingFlags="268435714" AlarmObjectColor="14696512" NonAlarmObjectColor="16776960" ObjectTextSize="0" CounterTextSize="0" SystemTextSize="1"></BIAStream>
+<BIAStream Id="3" Name="analogue output" Enable="0" DrawingFlags="268435714" AlarmObjectColor="14696512" NonAlarmObjectColor="16776960" ObjectTextSize="0" CounterTextSize="0" SystemTextSize="1"></BIAStream>
+</BIASettings>
+<TamperDetectionSettings Enable="0" AlarmTimeout="20" FiredAreaThreshold="40" LowLightEnable="0"></TamperDetectionSettings>
+<PTZTrackingSettings Enable="0" HomePreset="1" HomeTrackingOnly="0" Return2Home="0" Return2HomeTimeout="30">
+<AutoTracking Enable="0" Profile="N/A" MaxTrackingTime="60" HoldonTime="5" ManualOverride="1" ManualOverrideTimeout="30" TriggerbyRule="0"></AutoTracking>
+</PTZTrackingSettings>
+<SceneChangeDetectionSettings Mode="1" AlarmTimeout="1" FiredAreaThreshold="50"></SceneChangeDetectionSettings>
+</Root>
